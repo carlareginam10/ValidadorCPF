@@ -1,0 +1,24 @@
+{
+  "name": "validadorcpf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlareginam10/ValidadorCPF.git"
+  },
+  "author": "Carla Regina Mendes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlareginam10/ValidadorCPF/issues"
+  },
+  "homepage": "https://github.com/carlareginam10/ValidadorCPF#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4"
+  }
+}
