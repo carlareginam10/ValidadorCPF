@@ -30,7 +30,7 @@ const cpfValidator = require('validador-cpf-lib');
 
 ## roadmap oficial do projeto
 
-#### versão 2.0.0 (previsão maio/2018)
+#### versão 2.0.0 (previsão maio/2019)
 - refatorar função;
 
 #### versão 1.0.0 
