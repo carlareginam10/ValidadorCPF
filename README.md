@@ -16,16 +16,22 @@ $  npm install validador-cpf-lib
 ```node
 
 
-const validator = require('../lib/index');
+const cpfValidator = require('validador-cpf-lib');
 > console.log(cpfValidator('52998224725'))
 > // returns "true"
 > console.log(cpfValidator('03090575662'))
 > // returns "false"
 > console.log(cpfValidator('00000000000'))
 > // returns "false"
-> console.log(cpfValidator('oi'))
+> console.log(cpfValidator('string'))
 > // returns "false"
 
 ```
 
 ## roadmap oficial do projeto
+
+#### versão 2.0.0 (previsão maio/2018)
+- refatorar função;
+
+#### versão 1.0.0 
+- funcionalidades: verifica se um cpf é valido ou inválido.
