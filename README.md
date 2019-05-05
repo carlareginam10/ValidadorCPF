@@ -30,8 +30,9 @@ const cpfValidator = require('validador-cpf-lib');
 
 ## roadmap oficial do projeto
 
-#### versão 2.0.0 (previsão maio/2019)
-- refatorar função;
+#### versão 2.0.0
+- refatoração da função;
+- funcionalidades: verifica se um cpf é valido ou inválido.
 
 #### versão 1.0.0 
 - funcionalidades: verifica se um cpf é valido ou inválido.
