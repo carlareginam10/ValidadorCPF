@@ -15,15 +15,14 @@ $  npm install validador-cpf-lib
 
 ```node
 
-
-const cpfValidator = require('validador-cpf-lib');
-> console.log(cpfValidator('52998224725'))
+const validator = require('validador-cpf-lib');
+> validator.cpfValidator('52998224725')
 > // returns "true"
-> console.log(cpfValidator('03090575662'))
+> validator.cpfValidator('03090575662')
 > // returns "false"
-> console.log(cpfValidator('00000000000'))
+> validator.cpfValidator('00000000000')
 > // returns "false"
-> console.log(cpfValidator('string'))
+> validator.cpfValidator('string')
 > // returns "false"
 
 ```
