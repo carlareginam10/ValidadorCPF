@@ -1,4 +1,4 @@
-# Validador de CPF v.1.0.2
+# Validador de CPF v.1.0.3
 
 **Esta biblioteca se destina à validação de CPF, para uso em aplicações web.**
 Na versão atual é capaz de verificar se um cpf é valido ou inválido.
