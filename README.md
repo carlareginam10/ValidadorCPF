@@ -1,7 +1,7 @@
-# Validador de CPF v.1.0.3
+﻿# Validador de CPF v.1.0.3
 
 **Esta biblioteca se destina à validação de CPF, para uso em aplicações web.**
-Na versão atual é capaz de verificar se um cpf é valido ou inválido.
+Na versão atual é capaz de verificar se um cpf é válido ou inválido.
 
 ## Como instalar:
 
@@ -14,6 +14,8 @@ $  npm install validador-cpf-lib
 ## Como utilizar:
 
 ```node
+
+node
 
 const validator = require('validador-cpf-lib');
 > validator.cpfValidator('52998224725')
@@ -30,8 +32,8 @@ const validator = require('validador-cpf-lib');
 ## roadmap oficial do projeto
 
 #### versão 1.0.3
-- refatoração da função;
-- funcionalidades: verifica se um cpf é valido ou inválido.
+- refatoração da função.
+- funcionalidades: verifica se um cpf é válido ou inválido.
 
 #### versão 1.0.0 
-- funcionalidades: verifica se um cpf é valido ou inválido.
+- funcionalidades: verifica se um cpf é válido ou inválido.
