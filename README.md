@@ -7,7 +7,7 @@ Na versão atual é capaz de verificar se um cpf é válido ou inválido.
 
 ```shell
 
-$  npm install validador-cpf-lib
+$  npm install validador-cpf-lib-crm
 
 ```
 
@@ -17,7 +17,7 @@ $  npm install validador-cpf-lib
 
 node
 
-const validator = require('validador-cpf-lib');
+const validator = require('validador-cpf-lib-crm');
 > validator.cpfValidator('52998224725')
 > // returns "true"
 > validator.cpfValidator('03090575662')
@@ -31,9 +31,6 @@ const validator = require('validador-cpf-lib');
 
 ## roadmap oficial do projeto
 
-#### versão 1.0.3
-- refatoração da função.
-- funcionalidades: verifica se um cpf é válido ou inválido.
 
 #### versão 1.0.0 
 - funcionalidades: verifica se um cpf é válido ou inválido.

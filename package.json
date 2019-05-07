@@ -1,6 +1,6 @@
 {
-  "name": "validador-cpf-lib",
-  "version": "1.0.3",
+  "name": "validador-cpf-lib-crm",
+  "version": "1.0.0",
   "description": "A biblioteca se destina a verificar se um cpf é valido ou inválido",
   "main": "index.js",
   "scripts": {
